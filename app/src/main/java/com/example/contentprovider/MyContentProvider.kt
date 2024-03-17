@@ -5,8 +5,6 @@ import android.content.ContentValues
 import android.database.Cursor
 import android.net.Uri
 
-// MyContentProvider.kt
-//bản đúng
 class MyContentProvider : ContentProvider() {
     // Khai báo Uri của Content Provider
     companion object {

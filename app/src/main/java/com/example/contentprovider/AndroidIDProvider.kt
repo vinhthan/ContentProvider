@@ -13,7 +13,6 @@ import android.database.sqlite.SQLiteQueryBuilder
 import android.net.Uri
 import android.text.TextUtils
 
-//bản chưa đúng
 class AndroidIDProvider() : ContentProvider() {
     /**
      * Database specific constant declarations
