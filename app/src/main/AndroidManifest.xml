@@ -42,6 +42,12 @@
 
         </provider>
 
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.example.myapp.provider"
+            android:exported="true"/>
+
+
 
     </application>
 

@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //bản chưa đúng
         edt = findViewById(R.id.edt_android_id)
         btn = findViewById(R.id.btn_add)
-
         btn.setOnClickListener {
             val values = ContentValues()
             values.put(AndroidIDProvider.VALUE, edt.text.toString())
